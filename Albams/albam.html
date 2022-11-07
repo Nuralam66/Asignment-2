@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .handleComment{
+            text-align: center;
+            font-size: 700;
+            color: aqua;
+        }
+        button{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 150px;
+            height: 30px;
+            margin: auto;
+            padding: auto;
+        }
+        .albumStyle{
+            background-color: cornflowerblue;
+            border: 5px solid gold;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Posts/post.html">Post</a></li>
+            <li><a href="/Comments/comment.html">Comment</a></li>
+            <li><a href="/Albams/albam.html">Album</a></li>
+            <li><a href="/Photos/photo.html">Photo</a></li>
+            <li><a href="/Todos/todo.html">Todo</a></li>
+            <li><a href="/Users/user.html">User</a></li>
+        </ul>
+    </nav>
+
+    <div class="handleComment">
+        <h1>This is Albam Page</h1>
+        <button onclick="handleAlbam()">Click Here</button>
+    </div>
+    <section id="albumBox" >
+
+    </section>
+    <script src="albam.js"></script>
+</body>
+</html>
